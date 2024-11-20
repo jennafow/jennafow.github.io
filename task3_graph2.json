@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Child Poverty Rates - Local Authority",
+    "anchor": "start",
+    "subtitle": "Top 10 Highest Child Poverty Rates in 2022/23",
+    "fontSize": 24,
+    "subtitleFontSize": 16,
+    "color": "#1f832c",
+    "subtitleColor": "#000000"
+  },
+  "height": 400,
+  "width": 800,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "background": "#e2e4e2",
+  "view": {
+    "fill": "#e2e4e2",
+    "strokeOpacity": 0
+  },
+  "data": {"url": "poverty_la.csv"},
+  "mark": {"type": "bar", "color": "#1f832c"},
+  "encoding": {
+  "x": {"field": "2022/23", "type": "quantitative"},
+  "y": {"field": "Local authority", "type": "nominal", "sort":"-x"}
+  }
+}
+
+
+  
