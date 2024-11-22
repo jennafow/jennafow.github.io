@@ -1,67 +1,49 @@
-/* This is an example CSS file. If you include it in your portfolio, it'll provide some clean and basic styling */
-/* for your page. Feel free to experiment with the values, or copy them into a new file and use that instead. */
-
-/* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
-
-
-body { /* We can style any HTML element by using its name - here we're styling the body */
-  /* We want text that uses a clean sans-serif font, is usually 16px big and close to black */
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #2e2e2e;
+/* Global Styles */
+body {
+  background-color: #9dc183; /* Nature-inspired green */
+  color: #2f3e46; /* Dark contrasting text for readability */
+  font-family: 'Roboto', Arial, sans-serif; /* Modern, clean font */
+  margin: 0;
+  padding: 1in;
   line-height: 1.6;
-  /* we want a white page, that's centered and not too wide, c3f7ab */
-  background-color: #9dc183;
-  margin:0 auto;
-  max-width: 800px;
-  padding-top: 60px;
+  box-sizing: border-box;
 }
 
+/* Content Container */
+.content {
+  max-width: 1200px;
+  margin: 1in auto; /* Adds an inch gap around the content */
+  padding: 20px;
+  background-color: #fff; /* White background for readability */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for definition */
+}
 
-/* Headings */
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
-  color: #0d5420;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  font-weight: 600;
+  color: #1e3a34; /* Darker shade of green for headers */
+  margin: 0 0 10px 0;
 }
 
-/* We want the headings to be a little bigger than the paragraph text */
-.big { /* This is the class we created in the HTML file, you can use it to style any element */
+h1 {
   font-size: 2.5em;
 }
 
 h2 {
+  font-size: 2em;
+}
+
+h3 {
   font-size: 1.75em;
 }
 
-.small {
-  font-size: 1.25em;
-}
-
-/* Paragraph */
 p {
-  margin-bottom: 1em;
-  font-weight: 300;
-}
-
-section {
-  margin-bottom: 2.5em;  /* We want a little more space between sections */
+  font-size: 1em;
+  margin: 0 0 15px 0;
 }
 
 /* Links */
-/* We want the links to be a little more visible  and a different color */
 a {
-  color: #20715f;
-  text-decoration: none;
-}
+  color:
 
-a:hover {
-  text-decoration: underline;
-}
-  
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-}
+
