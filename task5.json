@@ -1,0 +1,155 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Corn Future Prices - Past 3 Months",
+      "anchor": "start",
+      "subtitle": "Data scraped from Yahoo Finance",
+      "fontSize": "24",
+      "subtitleFontSize": "16",
+      "color": "#1f832c",
+      "subtitleColor": "#000000"
+    },
+    "height": "400",
+    "width": "800",
+    "autosize": {
+      "type": "fit",
+      "contains": "padding"
+    },
+    "background": "#e2e4e2",
+    "view": {
+      "fill": "#e2e4e2",
+      "strokeOpacity": 0
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/tasks/corn_prices.csv"
+    },
+    "mark": {
+      "type": "line",
+      "color": "#1f832c"
+    },
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "title": "Date",
+        "axis": {
+          "labelFontSize": 14,
+          "titleFontSize": 16
+        }
+      },
+      "y": {
+        "field": "Close Price",
+        "type": "quantitative",
+        "title": "Close Price (USD)",
+        "scale": {
+          "domain": [300, 500]
+        },
+        "axis": {
+          "labelFontSize": 14,
+          "titleFontSize": 16
+        }
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Date",
+        "type": "temporal",
+        "title": "Date",
+        "format": "%B %d, %Y"
+      },
+      {
+        "field": "Close Price",
+        "type": "quantitative",
+        "title": "Close Price",
+        "format": "$,.2f"
+      }
+    ],
+    "layer": [
+      {
+        "mark": {
+          "type": "line",
+          "color": "#1f832c"
+        },
+        "encoding": {
+          "x": {
+            "field": "Date",
+            "type": "temporal"
+          },
+          "y": {
+            "field": "Close Price",
+            "type": "quantitative"
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/corn.png",
+          "width": 30,
+          "height": 30,
+          "align": "center",
+          "baseline": "middle"
+        },
+        "encoding": {
+          "x": {
+            "field": "Date",
+            "type": "temporal"
+          },
+          "y": {
+            "field": "Close Price",
+            "type": "quantitative"
+          }
+        },
+        "transform": [
+          {
+            "window": [
+              {
+                "op": "max",
+                "field": "Close Price",
+                "as": "maxPrice"
+              }
+            ],
+            "frame": [null, null]
+          },
+          {
+            "filter": "datum['Close Price'] == datum['maxPrice']"
+          }
+        ]
+      },
+      {
+        "mark": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/corn.png",
+          "width": 30,
+          "height": 30,
+          "align": "center",
+          "baseline": "middle"
+        },
+        "encoding": {
+          "x": {
+            "field": "Date",
+            "type": "temporal"
+          },
+          "y": {
+            "field": "Close Price",
+            "type": "quantitative"
+          }
+        },
+        "transform": [
+          {
+            "window": [
+              {
+                "op": "min",
+                "field": "Close Price",
+                "as": "minPrice"
+              }
+            ],
+            "frame": [null, null]
+          },
+          {
+            "filter": "datum['Close Price'] == datum['minPrice']"
+          }
+        ]
+      }
+    ]
+  }

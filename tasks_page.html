@@ -181,7 +181,22 @@
         Using a Google Colab python notebook, scrape a website through one of the presented methods in class        
         Then clean and normalise the data and export into TIDY (long form) format. 
     </p>
-    </div>
+    <p>
+        The corn future prices were scraped from <a href="https://finance.yahoo.com/quote/ZC=F/history/?p=ZC=F">Yahoo Finance</a>. The past three months data was pulled. The code can be found in this <a href="https://colab.research.google.com/drive/1OYsafxpVvQcPxef_0UWS3UW49dbYGerV#scrollTo=wOtKr1UjM1Sv">Google Colab Notebook</a>
+    </p>
+    <p>
+        Yahoo Finance was selected since they have the historical prices of the corn futures. This particular subject was selected as it relates to the project.
+    </p>
+    <figure id="Location9"></figure>
+        </div>
+        <!-- defining the chart files and their locations, used above -->
+        <script>
+            // This is a comment in JavaScript - it's a different language to HTML and CSS
+            let figure_9_spec = "task5.json";
+
+            vegaEmbed('#Location9', figure_9_spec)
+
+        </script>
 
 <!-- TASK 6-->
 <section id="task6">
@@ -199,8 +214,19 @@
         <h2>Task 7: Maps </h2>
         <p> 
             Produce two maps and embed them in your portfolio page. Both should be of the same country, region, area, city. 
+            Currently having issues importing a geojson from the ONS website to create the map at the local authority level
         <p> 
         </div>
+        <figure id="Location10"></figure>
+    </div>
+        <!-- defining the chart files and their locations, used above -->
+        <script>
+            // This is a comment in JavaScript - it's a different language to HTML and CSS
+            let figure_10_spec = "task7_map2.json";
+    
+            vegaEmbed('#Location10', figure_10_spec)
+    
+        </script>
 
 <!-- TASK 8-->
 <section id="task8">
