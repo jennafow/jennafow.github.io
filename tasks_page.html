@@ -193,7 +193,6 @@
         <script>
             // This is a comment in JavaScript - it's a different language to HTML and CSS
             let figure_9_spec = "task5.json";
-
             vegaEmbed('#Location9', figure_9_spec)
 
         </script>
@@ -206,7 +205,57 @@
             Use the ONS API to batch download nine different series as JSON files using a loop.  
             Save these to your GitHub account, and use these (as “raw” files) to supply the data to nine (or more) charts on a theme or themes of your choice.         
         </p>
+        <p>
+            Each graph depicts the past three months closing price for 9 different crop futures. 
+            Data was pulled from Yahoo Finance using their API in Python. The code is located in <a href="https://colab.research.google.com/drive/1fpqPsbCvgoPrIfFD9tMJR41cRC9WIzqw?usp=sharing"> this Google Colab Notebook</a>
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px;">
+            <figure id="Location10"></figure>
+            <figure id="Location11"></figure>
+            <figure id="Location12"></figure>
+            <figure id="Location13"></figure>
+            <figure id="Location14"></figure>
+            <figure id="Location15"></figure>
+            <figure id="Location16"></figure>
+            <figure id="Location17"></figure>
+            <figure id="Location18"></figure>
+        </div>
+
     </div>
+            <script>
+                let figure_10_spec = "task6_graph1.json"; 
+                let figure_11_spec = "task6_graph2.json";    
+                let figure_12_spec = "task6_graph3.json";    
+                let figure_13_spec = "task6_graph4.json";    
+                let figure_14_spec = "task6_graph5.json";    
+                let figure_15_spec = "task6_graph6.json";    
+                let figure_16_spec = "task6_graph7.json";    
+                let figure_17_spec = "task6_graph8.json";    
+                let figure_18_spec = "task6_graph9.json";    
+
+                vegaEmbed('#Location10', figure_10_spec)
+                vegaEmbed('#Location11', figure_11_spec)
+                vegaEmbed('#Location12', figure_12_spec)
+                vegaEmbed('#Location13', figure_13_spec)
+                vegaEmbed('#Location14', figure_14_spec)
+                vegaEmbed('#Location15', figure_15_spec)
+                vegaEmbed('#Location16', figure_16_spec)
+                vegaEmbed('#Location17', figure_17_spec)
+                vegaEmbed('#Location18', figure_18_spec)
+
+    
+            </script> 
+    </div>
+
+
+
+
+
+
+
+
+
+
 
 <!-- TASK 7-->
 <section id="task7">
@@ -217,14 +266,14 @@
             Currently having issues importing a geojson from the ONS website to create the map at the local authority level
         <p> 
         </div>
-        <figure id="Location10"></figure>
+        <figure id="Location21"></figure>
     </div>
         <!-- defining the chart files and their locations, used above -->
         <script>
             // This is a comment in JavaScript - it's a different language to HTML and CSS
-            let figure_10_spec = "task7_map2.json";
+            let figure_21_spec = "task7_map2.json";
     
-            vegaEmbed('#Location10', figure_10_spec)
+            vegaEmbed('#Location21', figure_21_spec)
     
         </script>
 
