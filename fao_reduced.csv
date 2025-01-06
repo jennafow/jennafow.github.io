@@ -1,4 +1,4 @@
-Area,Item,Year,Value
+COUNTRY,Item,Year,Value
 Afghanistan,Percentage of children under 5 years affected by wasting (percent),2015,
 Afghanistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,40.5
 Albania,Percentage of children under 5 years affected by wasting (percent),2015,
@@ -93,8 +93,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2015,
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,7.3
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2015,
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,26.9
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2015,
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,26.9
 Croatia,Percentage of children under 5 years affected by wasting (percent),2015,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2015,
@@ -373,8 +373,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,8.8
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2015,
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,8.6
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2015,
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,7.5
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2015,
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,7.5
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2015,4.2
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2015,10.2
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2015,
@@ -501,8 +501,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2016,
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,7.7
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2016,6.1
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,25.9
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2016,6.1
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,25.9
 Croatia,Percentage of children under 5 years affected by wasting (percent),2016,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2016,
@@ -781,8 +781,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,8.8
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2016,
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,8.7
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2016,
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,7.2
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2016,
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,7.2
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2016,
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2016,9.6
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2016,
@@ -909,8 +909,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2017,
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,8
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2017,
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,24.8
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2017,
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,24.8
 Croatia,Percentage of children under 5 years affected by wasting (percent),2017,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2017,
@@ -1189,8 +1189,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,8.9
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2017,
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,8.7
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2017,
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,6.8
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2017,
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,6.8
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2017,
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2017,9
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2017,
@@ -1317,8 +1317,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2018,1.8
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,8.3
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2018,
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,23.8
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2018,
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,23.8
 Croatia,Percentage of children under 5 years affected by wasting (percent),2018,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2018,
@@ -1597,8 +1597,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,8.8
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2018,2.1
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,8.8
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2018,1.7
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,6.5
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2018,1.7
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,6.5
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2018,
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2018,8.4
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2018,
@@ -1725,8 +1725,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2019,
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,8.6
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2019,
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,22.8
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2019,
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,22.8
 Croatia,Percentage of children under 5 years affected by wasting (percent),2019,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2019,2
@@ -2005,8 +2005,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,8.8
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2019,
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,8.8
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2019,
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,6.2
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2019,
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,6.2
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2019,4.1
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2019,7.9
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2019,2.8
@@ -2133,8 +2133,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2020,
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,8.9
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2020,
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,21.8
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2020,
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,21.8
 Croatia,Percentage of children under 5 years affected by wasting (percent),2020,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2020,
@@ -2413,8 +2413,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,8.8
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2020,
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,8.8
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2020,
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,6
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2020,
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,6
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2020,
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2020,7.4
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2020,
@@ -2541,8 +2541,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2021,
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,9.2
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2021,8.1
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,20.9
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2021,8.1
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,20.9
 Croatia,Percentage of children under 5 years affected by wasting (percent),2021,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2021,
@@ -2821,8 +2821,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,8.8
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2021,
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,8.7
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2021,
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,5.7
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2021,
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,5.7
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2021,
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2021,7
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2021,
@@ -2949,8 +2949,8 @@ Cook Islands,Percentage of children under 5 years affected by wasting (percent),
 Cook Islands,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,
 Costa Rica,Percentage of children under 5 years affected by wasting (percent),2022,
 Costa Rica,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,9.5
-C魌e d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2022,
-C魌e d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,20.2
+C么te d'Ivoire,Percentage of children under 5 years affected by wasting (percent),2022,
+C么te d'Ivoire,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,20.2
 Croatia,Percentage of children under 5 years affected by wasting (percent),2022,
 Croatia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,
 Cuba,Percentage of children under 5 years affected by wasting (percent),2022,
@@ -3229,8 +3229,8 @@ Trinidad and Tobago,Percentage of children under 5 years affected by wasting (pe
 Trinidad and Tobago,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,8.8
 Tunisia,Percentage of children under 5 years affected by wasting (percent),2022,
 Tunisia,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,8.6
-T黵kiye,Percentage of children under 5 years affected by wasting (percent),2022,
-T黵kiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,5.5
+T眉rkiye,Percentage of children under 5 years affected by wasting (percent),2022,
+T眉rkiye,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,5.5
 Turkmenistan,Percentage of children under 5 years affected by wasting (percent),2022,
 Turkmenistan,Percentage of children under 5 years of age who are stunted (modelled estimates) (percent),2022,6.7
 Tuvalu,Percentage of children under 5 years affected by wasting (percent),2022,
@@ -3629,14 +3629,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2015,12.2
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2015,11.5
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2015,12.9
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2015,122
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2015,13.2
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2015,6.2
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2015,6.2
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2015,6.3
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2015,34.1
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2015,34.1
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2015,34
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2015,122
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2015,13.2
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2015,6.2
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2015,6.2
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2015,6.3
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2015,34.1
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2015,34.1
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2015,34
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2015,122
 Croatia,Prevalence of undernourishment (percent) (3-year average),2015,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2015,0.6
@@ -4729,14 +4729,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2015,18.2
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2015,18.3
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2015,18
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2015,128
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2015,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2015,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2015,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2015,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2015,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2015,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2015,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2015,128
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2015,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2015,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2015,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2015,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2015,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2015,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2015,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2015,126
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2015,3.3
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2015,
@@ -5230,14 +5230,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2016,12.9
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2016,11.6
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2016,14.3
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2016,124
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2016,11.9
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2016,7.5
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2016,7.4
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2016,7.6
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2016,35.7
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2016,35.7
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2016,35.6
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2016,124
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2016,11.9
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2016,7.5
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2016,7.4
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2016,7.6
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2016,35.7
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2016,35.7
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2016,35.6
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2016,124
 Croatia,Prevalence of undernourishment (percent) (3-year average),2016,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2016,0.6
@@ -6330,14 +6330,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2016,19.4
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2016,19.1
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2016,19.8
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2016,129
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2016,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2016,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2016,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2016,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2016,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2016,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2016,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2016,129
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2016,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2016,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2016,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2016,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2016,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2016,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2016,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2016,126
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2016,3.3
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2016,
@@ -6831,14 +6831,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2017,13.7
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2017,12
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2017,15.4
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2017,125
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2017,11
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2017,8.4
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2017,8.3
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2017,8.5
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2017,37
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2017,37
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2017,37
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2017,125
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2017,11
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2017,8.4
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2017,8.3
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2017,8.5
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2017,37
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2017,37
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2017,37
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2017,125
 Croatia,Prevalence of undernourishment (percent) (3-year average),2017,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2017,0.8
@@ -7931,14 +7931,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2017,20
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2017,19.4
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2017,20.7
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2017,130
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2017,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2017,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2017,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2017,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2017,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2017,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2017,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2017,130
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2017,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2017,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2017,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2017,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2017,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2017,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2017,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2017,125
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2017,3.4
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2017,
@@ -8432,14 +8432,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2018,14.5
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2018,12.4
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2018,16.6
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2018,126
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2018,10.2
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2018,9.1
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2018,9
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2018,9.2
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2018,38.2
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2018,38.3
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2018,38.2
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2018,126
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2018,10.2
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2018,9.1
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2018,9
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2018,9.2
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2018,38.2
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2018,38.3
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2018,38.2
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2018,126
 Croatia,Prevalence of undernourishment (percent) (3-year average),2018,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2018,0.9
@@ -9532,14 +9532,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2018,22.1
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2018,21.2
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2018,23.1
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2018,132
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2018,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2018,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2018,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2018,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2018,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2018,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2018,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2018,132
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2018,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2018,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2018,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2018,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2018,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2018,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2018,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2018,125
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2018,3.5
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2018,
@@ -10033,14 +10033,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2019,15.3
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2019,13
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2019,17.7
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2019,128
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2019,9.5
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2019,9
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2019,8.9
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2019,9.1
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2019,39.5
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2019,39.5
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2019,39.4
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2019,128
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2019,9.5
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2019,9
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2019,8.9
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2019,9.1
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2019,39.5
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2019,39.5
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2019,39.4
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2019,128
 Croatia,Prevalence of undernourishment (percent) (3-year average),2019,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2019,1.3
@@ -11133,14 +11133,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2019,25
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2019,24.1
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2019,26
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2019,133
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2019,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2019,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2019,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2019,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2019,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2019,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2019,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2019,133
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2019,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2019,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2019,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2019,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2019,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2019,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2019,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2019,125
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2019,3.6
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2019,
@@ -11634,14 +11634,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2020,15.9
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2020,13.4
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2020,18.4
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2020,130
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2020,8.8
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2020,9.1
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2020,9
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2020,9.2
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2020,40.4
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2020,40.4
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2020,40.3
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2020,130
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2020,8.8
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2020,9.1
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2020,9
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2020,9.2
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2020,40.4
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2020,40.4
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2020,40.3
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2020,129
 Croatia,Prevalence of undernourishment (percent) (3-year average),2020,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2020,1.6
@@ -12735,14 +12735,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2020,28
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2020,27.7
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2020,28.4
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2020,133
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2020,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2020,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2020,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2020,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2020,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2020,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2020,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2020,133
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2020,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2020,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2020,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2020,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2020,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2020,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2020,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2020,124
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2020,3.8
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2020,
@@ -13236,14 +13236,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2021,16.2
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2021,14
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2021,18.4
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2021,131
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2021,9.1
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2021,9.4
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2021,9.3
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2021,9.5
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2021,41
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2021,41
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2021,40.9
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2021,131
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2021,9.1
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2021,9.4
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2021,9.3
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2021,9.5
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2021,41
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2021,41
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2021,40.9
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2021,131
 Croatia,Prevalence of undernourishment (percent) (3-year average),2021,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2021,1.9
@@ -14337,14 +14337,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2021,28.5
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2021,28.8
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2021,28.1
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2021,133
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2021,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2021,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2021,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2021,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2021,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2021,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2021,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2021,133
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2021,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2021,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2021,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2021,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2021,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2021,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2021,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2021,124
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2021,3.9
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2021,
@@ -14838,14 +14838,14 @@ Costa Rica,Prevalence of severe food insecurity in the female adult population (
 Costa Rica,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2022,16.2
 Costa Rica,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2022,13.8
 Costa Rica,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2022,18.6
-C魌e d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2022,132
-C魌e d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2022,9.6
-C魌e d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2022,8.9
-C魌e d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2022,8.8
-C魌e d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2022,9.1
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2022,39.4
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2022,39.3
-C魌e d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2022,39.4
+C么te d'Ivoire,Average dietary energy supply adequacy (percent) (3-year average),2022,132
+C么te d'Ivoire,Prevalence of undernourishment (percent) (3-year average),2022,9.6
+C么te d'Ivoire,Prevalence of severe food insecurity in the total population (percent) (3-year average),2022,8.9
+C么te d'Ivoire,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2022,8.8
+C么te d'Ivoire,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2022,9.1
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2022,39.4
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2022,39.3
+C么te d'Ivoire,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2022,39.4
 Croatia,Average dietary energy supply adequacy (percent) (3-year average),2022,132
 Croatia,Prevalence of undernourishment (percent) (3-year average),2022,<2.5
 Croatia,Prevalence of severe food insecurity in the total population (percent) (3-year average),2022,1.4
@@ -15939,14 +15939,14 @@ Tunisia,Prevalence of severe food insecurity in the female adult population (per
 Tunisia,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2022,26.7
 Tunisia,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2022,27
 Tunisia,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2022,26.4
-T黵kiye,Average dietary energy supply adequacy (percent) (3-year average),2022,133
-T黵kiye,Prevalence of undernourishment (percent) (3-year average),2022,<2.5
-T黵kiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2022,
-T黵kiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2022,
-T黵kiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2022,
-T黵kiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2022,
-T黵kiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2022,
-T黵kiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2022,
+T眉rkiye,Average dietary energy supply adequacy (percent) (3-year average),2022,133
+T眉rkiye,Prevalence of undernourishment (percent) (3-year average),2022,<2.5
+T眉rkiye,Prevalence of severe food insecurity in the total population (percent) (3-year average),2022,
+T眉rkiye,Prevalence of severe food insecurity in the male adult population (percent) (3-year average),2022,
+T眉rkiye,Prevalence of severe food insecurity in the female adult population (percent) (3-year average),2022,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the total population (percent) (3-year average),2022,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average),2022,
+T眉rkiye,Prevalence of moderate or severe food insecurity in the female adult population (percent) (3-year average),2022,
 Turkmenistan,Average dietary energy supply adequacy (percent) (3-year average),2022,123
 Turkmenistan,Prevalence of undernourishment (percent) (3-year average),2022,4.1
 Turkmenistan,Prevalence of severe food insecurity in the total population (percent) (3-year average),2022,
