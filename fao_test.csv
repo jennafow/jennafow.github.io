@@ -1,4 +1,4 @@
-ISO3,Country,Value
+ISO3,country,value
 AFG,Afghanistan,31
 ALB,Albania,13
 DZA,Algeria,42
@@ -36,7 +36,7 @@ COL,Colombia,18
 COM,Comoros,7
 COG,Congo,17
 CRI,Costa Rica,25
-CIV,Côte d'Ivoire,16
+CIV,CÃ´te d'Ivoire,16
 HRV,Croatia,24
 CUB,Cuba,33
 CYP,Cyprus,27
@@ -156,7 +156,7 @@ TLS,Timor-Leste,20
 TGO,Togo,53
 TTO,Trinidad and Tobago,14
 TUN,Tunisia,24
-TUR,Türkiye,11
+TUR,TÃ¼rkiye,11
 TKM,Turkmenistan,13
 UGA,Uganda,56
 UKR,Ukraine,33
