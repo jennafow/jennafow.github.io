@@ -1,0 +1,174 @@
+ISO3,Country,Value
+AFG,Afghanistan,31
+ALB,Albania,13
+DZA,Algeria,42
+AGO,Angola,25
+ARG,Argentina,14
+ARM,Armenia,52
+AUS,Australia,20
+AUT,Austria,25
+AZE,Azerbaijan,68
+BGD,Bangladesh,29
+BRB,Barbados,28
+BLR,Belarus,20
+BEL,Belgium,17
+BLZ,Belize,29
+BEN,Benin,39
+BOL,Bolivia (Plurinational State of),22
+BIH,Bosnia and Herzegovina,26
+BWA,Botswana,29
+BRA,Brazil,23
+BGR,Bulgaria,15
+BFA,Burkina Faso,25
+CPV,Cabo Verde,27
+KHM,Cambodia,36
+CMR,Cameroon,40
+CAN,Canada,30
+CAF,Central African Republic,7
+TCD,Chad,14
+CHL,Chile,24
+F351,China,21
+HKG,"China, Hong Kong SAR",50
+MAC,"China, Macao SAR",84
+CHN,"China, mainland",22
+TWN,"China, Taiwan Province of",11
+COL,Colombia,18
+COM,Comoros,7
+COG,Congo,17
+CRI,Costa Rica,25
+CIV,Côte d'Ivoire,16
+HRV,Croatia,24
+CUB,Cuba,33
+CYP,Cyprus,27
+CZE,Czechia,13
+PRK,Democratic People's Republic of Korea,32
+COD,Democratic Republic of the Congo,22
+DNK,Denmark,45
+DJI,Djibouti,8
+DMA,Dominica,19
+DOM,Dominican Republic,3
+ECU,Ecuador,34
+EGY,Egypt,23
+SLV,El Salvador,36
+EST,Estonia,55
+SWZ,Eswatini,22
+ETH,Ethiopia,40
+FJI,Fiji,28
+FIN,Finland,27
+FRA,France,15
+PYF,French Polynesia,54
+GAB,Gabon,15
+GMB,Gambia,38
+GEO,Georgia,57
+DEU,Germany,24
+GHA,Ghana,58
+GRC,Greece,23
+GTM,Guatemala,30
+GIN,Guinea,22
+GNB,Guinea-Bissau,35
+GUY,Guyana,72
+HTI,Haiti,14
+HND,Honduras,18
+HUN,Hungary,20
+ISL,Iceland,60
+IND,India,15
+IDN,Indonesia,35
+IRN,Iran (Islamic Republic of),36
+IRQ,Iraq,19
+IRL,Ireland,67
+ISR,Israel,16
+ITA,Italy,44
+JAM,Jamaica,43
+JPN,Japan,27
+JOR,Jordan,26
+KAZ,Kazakhstan,35
+KEN,Kenya,47
+KIR,Kiribati,19
+KWT,Kuwait,32
+KGZ,Kyrgyzstan,22
+LAO,Lao People's Democratic Republic,34
+LVA,Latvia,17
+LBN,Lebanon,20
+LBR,Liberia,24
+LBY,Libya,21
+LTU,Lithuania,21
+LUX,Luxembourg,51
+MDG,Madagascar,12
+MWI,Malawi,31
+MYS,Malaysia,14
+MLI,Mali,25
+MLT,Malta,36
+MRT,Mauritania,11
+MUS,Mauritius,13
+MEX,Mexico,14
+MNG,Mongolia,66
+MNE,Montenegro,25
+MAR,Morocco,22
+MOZ,Mozambique,87
+MMR,Myanmar,25
+NAM,Namibia,21
+NPL,Nepal,23
+NLD,Netherlands (Kingdom of the),61
+NCL,New Caledonia,25
+NZL,New Zealand,15
+NIC,Nicaragua,17
+NER,Niger,63
+NGA,Nigeria,16
+MKD,North Macedonia,32
+NOR,Norway,63
+OMN,Oman,17
+PAK,Pakistan,18
+PAN,Panama,51
+PNG,Papua New Guinea,16
+PRY,Paraguay,23
+PER,Peru,18
+PHL,Philippines,33
+POL,Poland,33
+PRT,Portugal,13
+KOR,Republic of Korea,10
+MDA,Republic of Moldova,34
+ROU,Romania,11
+RUS,Russian Federation,13
+RWA,Rwanda,26
+VCT,Saint Vincent and the Grenadines,31
+WSM,Samoa,20
+STP,Sao Tome and Principe,18
+SAU,Saudi Arabia,35
+SEN,Senegal,31
+SRB,Serbia,33
+SYC,Seychelles,42
+SLE,Sierra Leone,37
+SVK,Slovakia,50
+SVN,Slovenia,22
+SLB,Solomon Islands,26
+SOM,Somalia,24
+ZAF,South Africa,15
+ESP,Spain,26
+LKA,Sri Lanka,21
+SDN,Sudan,32
+SUR,Suriname,28
+SWE,Sweden,34
+CHE,Switzerland,33
+SYR,Syrian Arab Republic,25
+TJK,Tajikistan,31
+THA,Thailand,23
+TLS,Timor-Leste,20
+TGO,Togo,53
+TTO,Trinidad and Tobago,14
+TUN,Tunisia,24
+TUR,Türkiye,11
+TKM,Turkmenistan,13
+UGA,Uganda,56
+UKR,Ukraine,33
+ARE,United Arab Emirates,29
+GBR,United Kingdom of Great Britain and Northern Ireland,23
+TZA,United Republic of Tanzania,20
+USA,United States of America,21
+URY,Uruguay,25
+UZB,Uzbekistan,29
+VUT,Vanuatu,18
+VEN,Venezuela (Bolivarian Republic of),135
+VNM,Viet Nam,20
+YEM,Yemen,94
+ZMB,Zambia,29
+ZWE,Zimbabwe,36
