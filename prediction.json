@@ -1,0 +1,183 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+    "text": "Predicted Food Security Indicators",
+    "subtitle": [
+        "Outputs based on linear regressions to predict future food security indicators",
+        ""
+    ],
+    "fontSize": 20,
+    "color": "#900C3F",
+    "subtitleFontSize": 16,
+    "subtitleFontWeight": "lighter",
+    "subtitleColor": "#C70039",
+    "anchor": "middle"
+  },
+  "width": 600,
+  "height": 300,
+  "params": [
+    {
+      "name": "c",
+      "value": 550,
+      "bind": {
+        "input": "range",
+        "min": 200,
+        "max": 800,
+        "step": 25,
+        "name": "Corn Price"
+      }
+    },
+    {
+      "name": "w",
+      "value": 625,
+      "bind": {
+        "input": "range",
+        "min": 300,
+        "max": 1200,
+        "step": 50,
+        "name": "Wheat Price"
+      }
+    },
+    {
+      "name": "o",
+      "value": 1700,
+      "bind": {
+        "input": "range",
+        "min": 900,
+        "max": 2000,
+        "step": 100,
+        "name": "Rice Price"
+      }
+    }
+  ],
+  "data": {
+    "values": [{}]
+  },
+  "transform": [
+    {
+      "calculate": "(0.014*c) + (-0.0038*w) + (0.0054*o) + 14.3",
+      "as": "mod_foodinsec"
+    },
+    {
+      "calculate": "(0.005*c) + (0.00002675*w) + (0.0023*o) + 4.0495",
+      "as": "sev_foodinsec"
+    },
+    {
+      "calculate": "(0.0047*c) + (-0.0008*w) + (0.0012*o) + 4.7982",
+      "as": "undernourish"
+    },
+    {
+      "calculate": "'Moderate Food Insecurity'",
+      "as": "mod_label"
+    },
+    {
+      "calculate": "'Severe Food Insecurity'",
+      "as": "sev_label"
+    },
+    {
+      "calculate": "'Undernourishment'",
+      "as": "under_label"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "bar", "height": 50},
+      "encoding": {
+        "y": {
+          "field": "mod_label",
+          "type": "nominal",
+          "title": "Indicator",
+          "axis": {"labelFontSize": 14, "titleFontSize": 18}
+        },
+        "x": {
+          "field": "mod_foodinsec",
+          "type": "quantitative",
+          "title": "Value",
+          "scale": {"domain": [0, 35]},
+          "axis": {"labelFontSize": 14, "titleFontSize": 18}
+        },
+        "color": {"value": "#900C3F"}
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -2, "dy": 0, "color": "white"},
+      "encoding": {
+        "y": {"field": "mod_label", "type": "nominal"},
+        "x": {"field": "mod_foodinsec", "type": "quantitative"},
+        "text": {
+          "field": "mod_foodinsec",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "size": {"value": 14}
+      }
+    },
+    {
+      "mark": {"type": "bar", "height": 50},
+      "encoding": {
+        "y": {
+          "field": "sev_label",
+          "type": "nominal",
+          "title": "Indicator",
+          "axis": {"labelFontSize": 16, "titleFontSize": 18}
+        },
+        "x": {
+          "field": "sev_foodinsec",
+          "type": "quantitative",
+          "title": "Value",
+          "scale": {"domain": [0, 35]},
+          "axis": {"labelFontSize": 16, "titleFontSize": 18}
+        },
+        "color": {"value": "#C70039"}
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -2, "dy": 0, "color": "white"},
+      "encoding": {
+        "y": {"field": "sev_label", "type": "nominal"},
+        "x": {"field": "sev_foodinsec", "type": "quantitative"},
+        "text": {
+          "field": "sev_foodinsec",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "size": {"value": 14}
+      }
+    },
+    {
+      "mark": {"type": "bar", "height": 50},
+      "encoding": {
+        "y": {
+          "field": "under_label",
+          "type": "nominal",
+          "title": "Indicator",
+          "axis": {"labelFontSize": 16, "titleFontSize": 18}
+        },
+        "x": {
+          "field": "undernourish",
+          "type": "quantitative",
+          "title": "Value",
+          "scale": {"domain": [0, 35]},
+          "axis": {"labelFontSize": 16, "titleFontSize": 18}
+        },
+        "color": {"value": "#FF5733"}
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -2, "dy": 0, "color": "white"},
+      "encoding": {
+        "y": {"field": "under_label", "type": "nominal"},
+        "x": {"field": "undernourish", "type": "quantitative"},
+        "text": {
+          "field": "undernourish",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "size": {"value": 14}
+      }
+    }
+  ]
+}
+
+
+

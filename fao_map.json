@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": {
+  "text": "Food Insecurity Indicators",
+  "subtitle": [
+    "Use the slider to select a year and dropdown to select an indicator",
+    "Source: FAOSTAT",
+    ""
+  ],
+  "fontSize": 20,
+  "color": "#900C3F",
+  "subtitleFontSize": 16,
+  "subtitleFontWeight": "lighter",
+  "subtitleColor": "#C70039",
+  "anchor": "middle"
+},
+"width": 600,
+"height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/fao_reduced_3.csv"
+  },
+  "params": [
+    {
+      "name": "year_selection",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2022,
+        "step": 1,
+        "name": "Select Year:"
+      }
+    },
+    {
+      "name": "item_selection",
+      "value": "Undernourishment (%)",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Stunted Children (%)",
+          "Food Insecurity, moderate (%)",
+          "Food Insecurity, severe (%)",
+          "Undernourishment (%)"
+        ],
+        "name": "Select Indicator:"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "lookup": "ISO3",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
+          "format": {"type": "json", "property": "features"}
+        },
+        "key": "properties.ISO3",
+        "fields": ["type", "properties", "geometry"]
+      }
+    },
+    {
+      "filter": "datum.year == year_selection"
+    },
+    {
+      "filter": "datum.item == item_selection"
+    }
+  ],
+  "projection": {
+    "type": "naturalEarth1",
+    "scale": 150,
+    "translate": [300, 150]
+  },
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.3},
+  "encoding": {
+    "color": {
+      "condition": {"value": "lightgrey", "test": "!datum['value']"},
+      "field": "value",
+      "scale": {"type": "linear", "range": ["#DAF7A6", "#FFC300", "#C70039", "#900C3F"]},
+      "type": "quantitative",
+      "legend": {"title": "", "format": "d"}
+    },
+    "tooltip": [
+      {"field": "country", "title": "Country"},
+      {"field": "value", "title": "Value", "format": "d"},
+      {"field": "year", "title": "Year"},
+      {"field": "item", "title": "Item"}
+    ]
+  }
+}

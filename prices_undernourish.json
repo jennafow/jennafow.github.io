@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "strokeOpacity": 0
+    }
+  },
+  "width": 600,
+  "height": 400,
+  "title": {
+    "text": "Consumer Prices Food and Percent Undernourished by Country - 2022",
+    "subtitle": ["Data from the FAO for the year 2022", "Move and zoom in on the chart area", ""],
+    "fontSize": 20,
+    "color": "#900C3F",
+    "subtitleFontSize": 16,
+    "subtitleFontWeight": "lighter",
+    "subtitleColor": "#C70039",
+    "anchor": "middle"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/fao_prices_undernourishment.csv"
+  },
+  "params": [
+    {
+      "name": "grid",
+      "select": "interval",
+      "bind": "scales"
+    },
+    {
+      "name": "Continent",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All", "Africa", "Asia", "Europe", "Americas", "Oceania"],
+        "labels": ["All Continents", "Africa", "Asia", "Europe", "Americas", "Oceania"]
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "Continent == 'All' || datum.continent == Continent"
+    }
+  ],
+  "mark": {
+    "type": "circle",
+    "opacity": 0.7
+  },
+  "encoding": {
+    "x": {
+      "field": "undernourishment",
+      "type": "quantitative",
+      "title": "% of Population Undernourished",
+      "axis": {
+        "labelFontSize": 14,
+        "titleFontSize": 18
+      }
+    },
+    "y": {
+      "field": "prices",
+      "type": "quantitative",
+      "title": "Consumer Food Prices ($)",
+      "scale": { "type": "log", "domain": [100, 20000] },
+      "axis": {
+        "labelFontSize": 14,
+        "titleFontSize": 18
+      }
+    },
+    "color": {
+      "field": "continent",
+      "type": "nominal",
+      "title": null,
+      "legend": {
+        "orient": "bottom",
+        "direction": "horizontal",
+        "legendX": 5,
+        "legendY": 0,
+        "title": null,
+        "labelFontSize": 11
+      },
+      "scale": {
+        "domain": ["Africa", "Asia", "Europe", "Americas", "Oceania"],
+        "range": ["#C70039", "#FF5733", "#FFC300", "#acc97b", "#1ABC9C"]
+      }
+    },
+    "size": {
+      "field": "population",
+      "type": "quantitative",
+      "scale": {
+        "range": [40, 1000]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "Area"
+      },
+      {
+        "field": "undernourishment",
+        "title": "% of Population Undernourished",
+        "format": "d"
+      },
+      {
+        "field": "prices",
+        "title": "Consumer Prices, Food Indices (2015=100)",
+        "format": "d"
+      },
+      {
+        "field": "population",
+        "title": "Population in 2022 (x1000)",
+        "format": "d"
+      }
+    ]
+  },
+  "autosize": {
+    "type": "pad",
+    "contains": "padding",
+    "resize": true
+  }
+}
+
+
+
+
+
+  
+  
+  
+  

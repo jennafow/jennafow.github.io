@@ -1,0 +1,205 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Crop Price and Food Insecurity",
+    "subtitle": [
+      "Use the drop down options to compare the relationship between different crop prices and food insecurity indicators",
+      "Food insecurity data from the FAO and crop prices from Yahoo Finance",
+      ""
+    ],
+    "fontSize": 20,
+    "color": "#900C3F",
+    "subtitleFontSize": 16,
+    "subtitleFontWeight": "lighter",
+    "subtitleColor": "#C70039",
+    "anchor": "middle"
+  },
+  "width": 600,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/data_crop_prices.csv"
+  },
+  "params": [
+    {
+      "name": "selectedPrice",
+      "value": "Average Corn Price",
+      "bind": {
+        "input": "select",
+        "options": ["Average Corn Price", "Average Wheat Price", "Average Rice Price"],
+        "labels": ["Corn", "Wheat", "Rice"],
+        "name": "Crop Price:"
+      }
+    },
+    {
+      "name": "selectedInsecurity",
+      "value": "Prevalence of undernourishment (percent) (annual value)",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Prevalence of moderate or severe food insecurity in the total population (percent) (annual value)",
+          "Prevalence of severe food insecurity in the total population (percent) (annual value)",
+          "Prevalence of undernourishment (percent) (annual value)"
+        ],
+        "labels": [
+          "Moderate/Severe Insecurity (%)",
+          "Severe Insecurity (%)",
+          "Undernourishment (%)"
+        ],
+        "name": "Food Insecurity:"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "fold": [
+        "Average Corn Price",
+        "Average Wheat Price",
+        "Average Rice Price"
+      ],
+      "as": ["CropType", "CropValue"]
+    },
+    {
+      "fold": [
+        "Prevalence of moderate or severe food insecurity in the total population (percent) (annual value)",
+        "Prevalence of severe food insecurity in the total population (percent) (annual value)",
+        "Prevalence of undernourishment (percent) (annual value)"
+      ],
+      "as": ["InsecurityType", "InsecurityValue"]
+    },
+    {
+      "filter": "datum.CropType == selectedPrice && datum.InsecurityType == selectedInsecurity"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {
+        "labelFontSize": 14,
+        "titleFontSize": 14
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "shape": "circle",
+        "color": "#FFC300 ",
+        "fill": "#FFC300"
+      },
+      "encoding": {
+        "y": {
+          "field": "CropValue",
+          "type": "quantitative",
+          "title": "Average Crop Price ($)",
+          "axis": {
+            "titleColor": "#FFC300",
+            "titleFontSize": 16,
+            "labelFontSize": 14,
+            "domain": [0, 1800]
+          },
+          "scale": {
+            "domain": [0, 1800]
+          }
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "CropValue",
+          "on": "Year",
+          "method": "linear",
+          "x": "Year",
+          "y": "CropValue"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "color": "#FFC300",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "y": {
+          "field": "CropValue",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [0, 1800]
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "shape": "square",
+        "color": "#C70039",
+        "fill": "#C70039"
+      },
+      "encoding": {
+        "y": {
+          "field": "InsecurityValue",
+          "type": "quantitative",
+          "title": "Food Insecurity Metric",
+          "axis": {
+            "titleColor": "#C70039",
+            "orient": "right",
+            "titleFontSize": 16,
+            "labelFontSize": 14,
+            "domain": [0, 35]
+          },
+          "scale": {
+            "domain": [0, 35]
+          }
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "InsecurityValue",
+          "on": "Year",
+          "method": "linear",
+          "x": "Year",
+          "y": "InsecurityValue"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "color": "#C70039",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "y": {
+          "field": "InsecurityValue",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [0, 35]
+          }
+        }
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "config": {
+    "legend": {
+      "labelFontSize": 12
+    },
+    "header": {
+      "titleAlign": "center"
+    },
+    "view": {
+      "stroke": "transparent"
+    },
+    "background": "white",
+    "padding": 20
+  }
+}
