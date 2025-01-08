@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html> 
+
+<head>    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portfolio Tasks</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        #chartGrid {
+            display: flex;
+        }
+
+        #toc {
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        #toc ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #toc li {
+            margin: 5px 0;
+        }
+
+        #toc a {
+            text-decoration: none;
+        }
+
+        #toc a:hover {
+            text-decoration: underline;
+        }
+    </style>
+        
+    </style>
+</head>
+
+<body> 
+
+<!-- The body tag contains the elements that visitors to our page will see. -->
+    <h1 class="big" style="margin-bottom: 0px;"> 
+        Portfolio Tasks
+        
+    </p>
+    <h3 class="small"> 
+    This page contains all of the portfolio tasks assigned in the LSE course PP434.
+    Details on the course can be found <a href="https://www.lse.ac.uk/resources/calendar2024-2025/courseGuides/PP/2024_PP434.htm"> here</a>
+    <h3 class="small"> 
+         </h3>
+
+<!-- Table of Contents -->
+    <nav id="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#task1">Task 1: Hosting</a></li>
+            <li><a href="#task2">Task 2: Building</a></li>
+            <li><a href="#task3">Task 3: Debating</a></li>
+            <li><a href="#task4">Task 4: Replication</a></li>
+            <li><a href="#task5">Task 5: Scraper</a></li>
+            <li><a href="#task6">Task 6: Loops</a></li>
+            <li><a href="#task7">Task 7: Maps</a></li>
+            <li><a href="#task8">Task 8: Analytics Charts</a></li>
+            <li><a href="#task9">Task 9: Big Data</a></li>
+            <li><a href="#task10">Task 10: </a></li>
+        </ul>
+    </nav>
+
+
+<!-- TASK 1-->
+    <section id="task1">
+        <div class="chart-description">
+            <h2>Task 1: Hosting </h2>
+            <p> 
+            Add two charts using the <a href="https://github.com/vega/vega-embed">vegaembed</a> function.
+            </p>
+        </div>
+        <h3>Example Chart 1</h3>
+        <figure id="Location1"></figure> 
+    </section>
+        <section>
+            <div class="chart-description">
+                <h3>Example Chart 2</h3>
+                <p> 
+                    Pulling in a copy of a chart from https://rdeconomist.github.io/library
+                </p>
+            </div>
+            <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+
+<!-- TASK 2-->
+        <section id="task2">
+            <div class="chart-description">
+                <h2>Task 2: Building </h2>
+                <p> 
+                Build two separate charts using the "create" tool. 
+                </p>
+            </div>
+            <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <figure id="Location5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+
+<!-- defining the chart files and their locations, used above -->
+    <script>
+        // This is a comment in JavaScript - it's a different language to HTML and CSS
+        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_2_spec = "examplechart2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_4_spec = "week2example1.json"; 
+        let figure_5_spec = "week2example2.json"; 
+
+        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location2', figure_2_spec) 
+        vegaEmbed('#Location4', figure_4_spec)
+        vegaEmbed('#Location5', figure_5_spec)
+    </script>
+
+<!-- TASK 3-->
+<section id="task3">
+    <div class="chart-description">
+        <h2>Task 3: Debating </h2>
+        <p> 
+        Produce two charts that support or refute (or are related to in some way) a topic discussed at <a href="https://www.economicsobservatory.com/festival-of-economics-2024">the Festival of Economics</a> 
+
+
+        </p>
+        <p> 
+        Poverty in the UK has increased in the last decade. Some regions have seen a decrease in child poverty rates overtime, but as a whole, the child poverty rates in the UK have increased in the past decade.
+        Data from <a href="https://endchildpoverty.org.uk/child-poverty-2024/">End Child Poverty</a> 
+        </p>
+    </div>
+    <figure id="Location6"></figure>
+    <p> 
+    The chart below shows the local authorities with the 10 highest and lowest child poverty rates in 2023. 
+    </p>
+    <figure id="Location7"></figure>
+
+
+    <!-- defining the chart files and their locations, used above -->
+    <script>
+        // This is a comment in JavaScript - it's a different language to HTML and CSS
+        let figure_6_spec = "task3_graph1.json";
+        let figure_7_spec = "task3_graph2.json";
+
+        vegaEmbed('#Location6', figure_6_spec)
+        vegaEmbed('#Location7', figure_7_spec)
+
+    </script>
+
+
+<!-- TASK 4-->
+<section id="task4">
+    <div class="chart-description">
+        <h2>Task 4: Replication </h2>
+        <p> 
+            Find a chart that a journalist, think tank, television channel or company has used. Your challenge this week is to replicate it, and then improve on it. 
+        </p>
+        </p>
+            Original chart location: <a href="https://ifs.org.uk/living-standards-poverty-and-inequality-uk">IFS</a> 
+        </p>
+        <figure id="Location8"></figure>
+    </div>
+        <!-- defining the chart files and their locations, used above -->
+        <script>
+            // This is a comment in JavaScript - it's a different language to HTML and CSS
+            let figure_8_spec = "task4graph1.json";
+    
+            vegaEmbed('#Location8', figure_8_spec)
+    
+        </script>
+
+
+<!-- TASK 5-->
+<section id="task5">
+    <div class="chart-description">
+        <h2>Task 5: Scraper </h2>
+        <p> 
+        Using a Google Colab python notebook, scrape a website through one of the presented methods in class        
+        Then clean and normalise the data and export into TIDY (long form) format. 
+    </p>
+    <p>
+        The corn future prices were scraped from <a href="https://finance.yahoo.com/quote/ZC=F/history/?p=ZC=F">Yahoo Finance</a>. The past three months data was pulled. The code can be found in this <a href="https://colab.research.google.com/drive/1OYsafxpVvQcPxef_0UWS3UW49dbYGerV#scrollTo=wOtKr1UjM1Sv">Google Colab Notebook</a>
+    </p>
+    <p>
+        Yahoo Finance was selected since they have the historical prices of the corn futures. This particular subject was selected as it relates to the project.
+    </p>
+    <figure id="Location9"></figure>
+        </div>
+        <!-- defining the chart files and their locations, used above -->
+        <script>
+            // This is a comment in JavaScript - it's a different language to HTML and CSS
+            let figure_9_spec = "task5.json";
+            vegaEmbed('#Location9', figure_9_spec)
+
+        </script>
+
+<!-- TASK 6-->
+<section id="task6">
+    <div class="chart-description">
+        <h2>Task 6: Loops </h2>
+        <p> 
+            Use the ONS API to batch download nine different series as JSON files using a loop.  
+            Save these to your GitHub account, and use these (as “raw” files) to supply the data to nine (or more) charts on a theme or themes of your choice.         
+        </p>
+        <p>
+            Each graph depicts the past three months closing price for 9 different crop futures. 
+            Data was pulled from Yahoo Finance using their API in Python. The code is located in <a href="https://colab.research.google.com/drive/1fpqPsbCvgoPrIfFD9tMJR41cRC9WIzqw?usp=sharing"> this Google Colab Notebook</a>
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px;">
+            <figure id="Location10"></figure>
+            <figure id="Location11"></figure>
+            <figure id="Location12"></figure>
+            <figure id="Location13"></figure>
+            <figure id="Location14"></figure>
+            <figure id="Location15"></figure>
+            <figure id="Location16"></figure>
+            <figure id="Location17"></figure>
+            <figure id="Location18"></figure>
+        </div>
+
+    </div>
+            <script>
+                let figure_10_spec = "task6_graph1.json"; 
+                let figure_11_spec = "task6_graph2.json";    
+                let figure_12_spec = "task6_graph3.json";    
+                let figure_13_spec = "task6_graph4.json";    
+                let figure_14_spec = "task6_graph5.json";    
+                let figure_15_spec = "task6_graph6.json";    
+                let figure_16_spec = "task6_graph7.json";    
+                let figure_17_spec = "task6_graph8.json";    
+                let figure_18_spec = "task6_graph9.json";    
+
+                vegaEmbed('#Location10', figure_10_spec)
+                vegaEmbed('#Location11', figure_11_spec)
+                vegaEmbed('#Location12', figure_12_spec)
+                vegaEmbed('#Location13', figure_13_spec)
+                vegaEmbed('#Location14', figure_14_spec)
+                vegaEmbed('#Location15', figure_15_spec)
+                vegaEmbed('#Location16', figure_16_spec)
+                vegaEmbed('#Location17', figure_17_spec)
+                vegaEmbed('#Location18', figure_18_spec)
+
+    
+            </script> 
+    </div>
+
+
+
+<!-- TASK 7-->
+<section id="task7">
+    <div class="chart-description">
+        <h2>Task 7: Maps </h2>
+        <p> 
+            Produce two maps and embed them in your portfolio page. Both should be of the same country, region, area, city. 
+            Currently having issues importing a geojson from the ONS website to create the map at the local authority level
+        <p> 
+        </div>
+        <figure id="Location21"></figure>
+    </div>
+        <script>
+            let figure_21_spec = "task7_map2.json";    
+            vegaEmbed('#Location21', figure_21_spec)
+    
+        </script>
+
+<!-- TASK 8-->
+<section id="task8">
+    <div class="chart-description">
+        <h2>Task 8: Analytics Charts </h2>
+        <p> 
+            Produce two charts that use advanced analytics. 
+            This could include any two of: Scatter, bubble, histogram of distributions, de-trended (including univariate regression) shock analysis, Diff-in-Diff, heat maps. Examples, including code, were discussed in the lecture.              
+        <p> 
+        </div>
+
+<!-- TASK 9-->
+<section id="task9">
+    <div class="chart-description">
+        <h2>Task 9: Big Data </h2>
+        <p> 
+            Produce two charts using the UK price data provided in class.               
+        <p> 
+        </div>
+
+<!-- TASK 10-->
+<section id="task10">
+    <div class="chart-description">
+        <h2> Interactive Visualisations </h2>
+        <p> 
+            Produce two visualisation that have interactive elements.  
+        <p> 
+        </div>
+        <figure id="Location22"></figure>
+        <figure id="Location23"></figure>
+
+    </div>
+        <script>
+            let figure_22_spec = "prices_undernourish.json"; 
+            let figure_23_spec = "fao_map.json";   
+            vegaEmbed('#Location22', figure_22_spec)
+            vegaEmbed('#Location23', figure_23_spec)
+    
+        </script>
+
+</body>
+    
