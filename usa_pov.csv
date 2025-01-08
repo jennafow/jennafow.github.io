@@ -1,53 +1,51 @@
-state,poverty
-Alabama,16.3
-Alaska,10.8
-Arizona,12.9
-Arkansas,16
-California,12.3
-Colorado,9.7
-Connecticut,10.1
-Delaware,11.5
-District of Columbia,16.8
-Florida,13.2
-Georgia,14.2
-Hawaii,10.9
-Idaho,10.8
-Illinois,12.1
-Indiana,12.1
-Iowa,11
-Kansas,11.6
-Kentucky,16.3
-Louisiana,19.5
-Maine,11.2
-Maryland,10.3
-Massachusetts,10.4
-Michigan,13
-Minnesota,9.3
-Mississippi,19.2
-Missouri,12.8
-Montana,12
-National,12.8
-Nebraska,10.5
-Nevada,14
-New Hampshire,7.4
-New Jersey,10.2
-New Mexico,17.7
-New York,14
-North Carolina,13.5
-North Dakota,10.9
-Ohio,13.3
-Oklahoma,15.4
-Oregon,12.2
-Pennsylvania,12
-Rhode Island,12.1
-South Carolina,14.5
-South Dakota,11.9
-Tennessee,13.7
-Texas,14.2
-Utah,8.7
-Vermont,10.2
-Virginia,10.3
-Washington,9.9
-West Virginia,16.8
-Wisconsin,10.8
-Wyoming,10.6
+state,id,poverty
+Alabama,1,16.3
+Alaska,2,10.8
+Arizona,4,12.9
+Arkansas,5,16
+California,6,12.3
+Colorado,8,9.7
+Connecticut,9,10.1
+Delaware,10,11.5
+Florida,12,13.2
+Georgia,13,14.2
+Hawaii,15,10.9
+Idaho,16,10.8
+Illinois,17,12.1
+Indiana,18,12.1
+Iowa,19,11
+Kansas,20,11.6
+Kentucky,21,16.3
+Louisiana,22,19.5
+Maine,23,11.2
+Maryland,24,10.3
+Massachusetts,25,10.4
+Michigan,26,13
+Minnesota,27,9.3
+Mississippi,28,19.2
+Missouri,29,12.8
+Montana,30,12
+Nebraska,31,10.5
+Nevada,32,14
+New Hampshire,33,7.4
+New Jersey,34,10.2
+New Mexico,35,17.7
+New York,36,14
+North Carolina,37,13.5
+North Dakota,38,10.9
+Ohio,39,13.3
+Oklahoma,40,15.4
+Oregon,41,12.2
+Pennsylvania,42,12
+Rhode Island,44,12.1
+South Carolina,45,14.5
+South Dakota,46,11.9
+Tennessee,47,13.7
+Texas,48,14.2
+Utah,49,8.7
+Vermont,50,10.2
+Virginia,51,10.3
+Washington,53,9.9
+West Virginia,54,16.8
+Wisconsin,55,10.8
+Wyoming,56,10.6
