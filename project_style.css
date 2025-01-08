@@ -134,39 +134,65 @@ figure img {
   line-height: 1.6;
 }
 
+/* Chart section container */
+.chart-section {
+  border: 1px solid #900C3F; /* Add a border with a custom color */
+  padding: 20px; /* Add padding inside the box */
+  margin-bottom: 30px; /* Add space between sections */
+  background-color: #f7f7f7; /* Light background color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   body {
-    padding: 15px;
+      padding: 15px;
   }
 
   .content {
-    padding: 15px;
+      padding: 15px;
   }
 
   h1 {
-    font-size: 2.5em;
+      font-size: 2.5em;
   }
 
   h2 {
-    font-size: 2em;
+      font-size: 2em;
   }
 
   h3 {
-    font-size: 1.5em;
+      font-size: 1.5em;
   }
 
   .chart-description p {
-    font-size: 1em;
+      font-size: 1em;
   }
 
   #toc h2 {
-    font-size: 1.5em;
+      font-size: 1.5em;
   }
 
   #toc ul li a {
-    font-size: 1em;
+      font-size: 1em;
+  }
+
+  figure {
+      max-width: 100%;
+  }
+
+  .vega-chart {
+      width: 100%; /* Full-width container */
+      height: auto; /* Allow height to adjust */
   }
 }
+
+/* Add any additional global chart responsiveness */
+.vega-chart {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 

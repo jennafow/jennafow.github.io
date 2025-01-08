@@ -5,80 +5,33 @@
     <link rel="stylesheet" type="text/css" href="project_style.css">
     <title>Food Security</title> <!-- The title displayed in the browser tab, not on the page itself -->
 
+    <a href="index.html" class="return-home-button">Return to Home</a>
+
     <!-- This is a link to the vega-lite which we're using to make graphs -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-    <style>
-        /* Additional styles for section boxes */
-        .chart-section {
-            border: 1px solid #900C3F; /* Add a border with a custom color */
-            padding: 20px; /* Add padding inside the box */
-            margin-bottom: 30px; /* Add space between sections */
-            background-color: #f7f7f7; /* Light background color */
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
-        }
-
-        /* Additional styling for titles */
-        .chart-description h2 {
-            color: #900C3F;
-            font-size: 24px;
-        }
-
-        /* Adjust the width of the content */
-        .content {
-            width: 80%;
-            margin: 0 auto;
-        }
-
-        /* Styling for the Table of Contents */
-        #toc {
-            margin-bottom: 40px;
-        }
-
-        #toc h2 {
-            color: #900C3F;
-        }
-
-        #toc ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        #toc li {
-            margin: 10px 0;
-        }
-
-        #toc a {
-            color: #900C3F;
-            text-decoration: none;
-        }
-
-        #toc a:hover {
-            text-decoration: underline;
-        }
-    </style>
-
 </head>
 
 <body>
     <div class="content">
-        <h1 class="big">Food Security and Crop Prices</h1>
+        <h1>Food Security and Crop Prices</h1>
 
-        <h2 class="small">
-            This project helps shed light on the relationship between food prices and food security indicators. A correlation analysis revealed a positive and significant relationship between the three selected crop prices and the three selected indicators. A simple linear regression was run to get the coefficients and intercept for the three crops on each indicator. Each regression equation was then used in the chart “Predicted Food Security Indicators” to show the predicted food security indicator as the crop prices change. This analysis does not assign any causality to the relationship but does find that, in general, as crop prices increase, so does the level of food insecurity in the world.
-        </h2>
+        <h2>This project helps shed light on the relationship between food prices and food security indicators through data visualizations.</h2>
+        
+        <h3>
+            A correlation analysis revealed a positive and significant relationship between the three selected crop prices and the three selected indicators. A simple linear regression was run to get the coefficients and intercept for the three crops on each indicator. Each regression equation was then used in the chart “Predicted Food Security Indicators” to show the predicted food security indicator as the crop prices change. This analysis does not assign any causality to the relationship but does find that, in general, as crop prices increase, so does the level of food insecurity in the world.
+        </h3>
 
         <h3 class="small">
             The main data sources used are
             <a href="https://www.fao.org/faostat/en/#data">FAOSTAT</a> (for historical prices and food security indicators)
             and <a href="https://finance.yahoo.com/">Yahoo Finance</a> (for crop prices).
-        <h3>
-            <h3 class="small">
-                Link to the Google Colab page for the 10-year crop prices: <a
-                href="https://colab.research.google.com/drive/1Xrw7rNZ0YO8TGZ2yLLSNJtc5KQ_ogS3J#scrollTo=rb6xK7rml49m">Google Colab</a>
-            <h3>
+        </h3>
+
+        <h3 class="small">
+            Link to the Google Colab page for the 10-year crop prices: <a href="https://colab.research.google.com/drive/1Xrw7rNZ0YO8TGZ2yLLSNJtc5KQ_ogS3J#scrollTo=rb6xK7rml49m">Google Colab</a>
+        </h3>
 
         <!-- Table of Contents -->
         <nav id="toc">
@@ -89,7 +42,6 @@
                 <li><a href="#chart3">Crop Prices and Food Security Indicators</a></li>
                 <li><a href="#chart4">Predicted Food Security Measures</a></li>
                 <li><a href="#section5">Project Write Up</a></li>
-
             </ul>
         </nav>
 
@@ -119,8 +71,7 @@
                 <div class="chart-description">
                     <h2>Food Security Indicators - over time by country</h2>
                     <p>
-                        Use the chart below to explore commonly used food security indicators over time. Use the drop-down
-                        boxes to change the year and the selected indicator. Hover over the map to see detailed values.
+                        Use the chart below to explore commonly used food security indicators over time. Use the drop-down boxes to change the year and the selected indicator. Hover over the map to see detailed values.
                     </p>
                 </div>
                 <figure id="Location2"></figure>
@@ -138,7 +89,8 @@
                 <div class="chart-description">
                     <h2>Crop Prices and Food Security Indicators</h2>
                     <p>
-                        The chart below visualizes the changes in average closing price for certain crops and food security measures for the past ten years. Changing the values in the drop down will also update the regressions lines. The regression lines help show the general trend of the data over time.
+                        The chart below visualizes the changes in average closing price for certain crops and food security measures for the past ten years. 
+                        Changing the values in the drop down will also update the regressions lines. The regression lines help show the general trend of the data over time.
                     </p>
                 </div>
                 <figure id="Location3"></figure>
@@ -156,7 +108,11 @@
                 <div class="chart-description">
                     <h2>Food Security Indicators - Predicted values based on Crop Prices</h2>
                     <p>
-                        Use the chart below to see the predicted impact on food security indicators when the crop prices change. These results are based on a regression analysis done for predicting values using 10 years worth of average crop price data. Greater availability of data would provide for better predictive possibilities, but in the absence of more data, this chart gives a sense of the impact on food security when commonly used crops have changes in their market prices. All data is aggregated at a world level due to data availability, but it is reasonable to assume there would be significant changes to the relationship between crop prices and food security based on the region and many other factors.
+                        Use the chart below to see the predicted impact on food security indicators when the crop prices change. 
+                        These results are based on a regression analysis done for predicting values using 10 years worth of average crop price data. 
+                        Greater availability of data would provide for better predictive possibilities, but in the absence of more data, 
+                        this chart gives a sense of the impact on food security when commonly used crops have changes in their market prices. 
+                        All data is aggregated at a world level due to data availability, but it is reasonable to assume there would be significant changes to the relationship between crop prices and food security based on the region and many other factors.
                     </p>
                     <p>
                         Details on the methods and code used can be found on <a href="https://colab.research.google.com/drive/1n8sgw_6xmRjQNe-CpnowjDLzMUyjd6AH?usp=sharing">Google Colab</a>
@@ -171,42 +127,44 @@
             </section>
         </div>
 
-    <!-- Chart 4 -->
-    <div class="chart-section">
-        <section id="section5">
-            <div class="chart-description">
-        <h2>Project Write Up</h2>
-        <h3>1. Project Aims</h3>
-        <p>
-            The aim of this project is to look at the relationship, if any, between crop prices and food security. The question originated from wondering about the impact on increasing food prices and if it does cause basic food needs to go unmet. This question is not meant to look for causal relationships, but rather aims to understand the presence of any relationship and then use that statistical relationship to predict the impact of crop prices on food security indicators.
-        </p>
-
-        <h3>2. The Data You Used and How It Was Accessed</h3>
-        <p>
-            The data for this project came from two main sources. The data for the food security indicators was downloaded directly from the FAOSTAT website. The FAO publishes a wide range of data related to food and agriculture for more than the past 10 years. The crop price data was scraped from Yahoo Finance. This data was scraped and aggregated at the year level in order to merge the crop prices with the data downloaded from the FAOSTAT site.
-        </p>
-        <p>
-            The level of data aggregation available for the food security indicators was a limiting factor in this project since it is only available on a yearly basis. The project was additionally limited since the crop prices available for scraping are not location specific. One way to improve this project and get a more comprehensive answer to the research question would be to pull all data at a monthly interval and pull crop price data for specific locations. Despite the data limitations, the available data does help address the research questions and provide more insight into the relationship between crop prices and food security.
-        </p>
-
-        <h3>3. Challenges in Data Cleaning and/or Analysis, and the Tools You Used to Overcome Them</h3>
-        <p>
-            Some of the main challenges in this project were deciding how and what data to pull. Several sites for pulling live commodity data required a paid API. Once the sources were identified, the cleaning did not take a significant amount of time or effort. The data from the FAO is relatively straightforward and only required some deleting of unnecessary data (whole categories also downloaded that were not part of the selected data) and converting values with the “<” symbol to a numeric value. I used Excel to manually clean the data when necessary.
-        </p>
-        <p>
-            The other tools and methods used in the project are tools and methods with which I am already familiar (mapping, regression, python), so the difficulties had more to do with data-specific issues and syntax errors.
-        </p>
-
-        <h3>4. Conclusions</h3>
-        <p>
-            This project helps shed light on the relationship between food prices and food security indicators. A correlation analysis revealed a positive and significant relationship between the three selected crop prices and the three selected indicators. A simple linear regression was run to get the coefficients and intercept for the three crops on each indicator. Each regression equation was then used in the chart “Predicted Food Security Indicators” to show the predicted food security indicator as the crop prices change. This analysis does not assign any causality to the relationship but does find that, in general, as crop prices increase, so does the level of food insecurity in the world.
-        </p>
-        <p>
-            Future analysis could be carried out to investigate this question at a more granular level either through a specific location, a more frequent interval, or both. The relationship between crop prices and food security is likely heavily dependent on location, geopolitical events, and other factors impacting purchasing power.
-        </p>
+        <!-- Project Write Up Section -->
+        <div class="chart-section">
+            <section id="section5">
+                <div class="chart-description">
+                    <h2>Project Write Up</h2>
+                    <h3>1. Project Aims</h3>
+                    <p>
+                        The aim of this project is to look at the relationship, if any, between crop prices and food security. The question originated from wondering about the impact on increasing food prices and if it does cause basic food needs to go unmet. This question is not meant to look for causal relationships, but rather aims to understand the presence of any relationship and then use that statistical relationship to predict the impact of crop prices on food security indicators.
+                    </p>
+            
+                    <h3>2. The Data You Used and How It Was Accessed</h3>
+                    <p>
+                        The data for this project came from two main sources. The data for the food security indicators was downloaded directly from the FAOSTAT website. The FAO publishes a wide range of data related to food and agriculture for more than the past 10 years. The crop price data was scraped from Yahoo Finance. This data was scraped and aggregated at the year level in order to merge the crop prices with the data downloaded from the FAOSTAT site.
+                    </p>
+                    <p>
+                        The level of data aggregation available for the food security indicators was a limiting factor in this project since it is only available on a yearly basis. The project was additionally limited since the crop prices available for scraping are not location specific. One way to improve this project and get a more comprehensive answer to the research question would be to pull all data at a monthly interval and pull crop price data for specific locations. Despite the data limitations, the available data does help address the research questions and provide more insight into the relationship between crop prices and food security.
+                    </p>
+            
+                    <h3>3. Challenges in Data Cleaning and/or Analysis, and the Tools You Used to Overcome Them</h3>
+                    <p>
+                        Some of the main challenges in this project were deciding how and what data to pull. Several sites for pulling live commodity data required a paid API. Once the sources were identified, the cleaning did not take a significant amount of time or effort. The data from the FAO is relatively straightforward and only required some deleting of unnecessary data (whole categories also downloaded that were not part of the selected data) and converting values with the “<” symbol to a numeric value. I used Excel to manually clean the data when necessary.
+                    </p>
+                    <p>
+                        The other tools and methods used in the project are tools and methods with which I am already familiar (mapping, regression, python), so the difficulties had more to do with data-specific issues and syntax errors.
+                    </p>
+            
+                    <h3>4. Conclusions</h3>
+                    <p>
+                        This project helps shed light on the relationship between food prices and food security indicators. A correlation analysis revealed a positive and significant relationship between the three selected crop prices and the three selected indicators. A simple linear regression was run to get the coefficients and intercept for the three crops on each indicator. Each regression equation was then used in the chart “Predicted Food Security Indicators” to show the predicted food security indicator as the crop prices change. This analysis does not assign any causality to the relationship but does find that, in general, as crop prices increase, so does the level of food insecurity in the world.
+                    </p>
+                    <p>
+                        Future analysis could be carried out to investigate this question at a more granular level either through a specific location, a more frequent interval, or both. The relationship between crop prices and food security is likely heavily dependent on location, geopolitical events, and other factors impacting purchasing power.
+                    </p>
+            </section>
+        </div>
     </div>
-</div>
 </body>
 
 </html>
+
 
