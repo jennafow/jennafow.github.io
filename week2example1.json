@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Exports - Bangladesh",
+    "anchor": "start",
+    "subtitle": "Current USD | Source: BBS (WB) through ECO API",
+    "fontSize": "24",
+    "subtitleFontSize": "12",
+    "color": "#1f832c",
+    "subtitleColor": "#000000"
+  },
+  "height": "400",
+  "width": "800",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "background": "#e2e4e2",
+  "view": {
+    "fill": "#e2e4e2",
+    "strokeOpacity": 0
+  },
+  "data": {
+    "url": "https://api.economicsobservatory.com/bgd/expo?vega",
+    "format": {
+      "type": "json"
+    }
+  },
+  "mark": {
+    "type": "line",
+    "color": "#1f832c",
+    "strokeWidth": "2"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "title": "",
+        "titleColor": "#122B39",
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {
+        "title": "",
+        "titleColor": "#122B39",
+        "grid": false
+      }
+    }
+  }
+}

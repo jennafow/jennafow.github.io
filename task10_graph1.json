@@ -1,0 +1,54 @@
+
+// currently the backup version //
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Food Insecurity Indicators",
+      "subtitle": [
+        "Use the dropdown to select different indicators",
+        "Source: FAOSTAT",
+        ""
+      ],
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "subtitleFontWeight": "lighter",
+      "anchor": "middle"
+    },
+    "description": "2021 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
+      "format": {"property": "features"}
+    },
+    "width": 600,
+    "height": 330,
+    "transform": [
+      {
+        "lookup": "properties.ISO3",
+        "from": {
+          "key": "ISO3",
+          "fields": ["country", "value"],
+          "data": {
+            "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/fao_test.csv"
+          }
+        }
+      }
+    ],
+    "projection": {
+      "type": "naturalEarth1",
+      "scale": 125,
+      "translate": [285, 180]
+    },
+    "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.3},
+    "encoding": {
+      "color": {
+        "condition": {"value": "lightgrey", "test": "!datum['value']"},
+        "field": "value",
+        "type": "quantitative",
+        "legend": {"title": "", "format": "d"}
+      },
+      "tooltip": [
+        {"field": "country", "title": "Country"},
+        {"field": "value", "title": "", "format": "d"}
+      ]
+    }
+  }

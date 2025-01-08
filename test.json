@@ -1,0 +1,9 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "poverty_la.csv"},
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "2022/23", "type": "quantitative"},
+      "y": {"field": "Local authority", "type": "nominal"}
+    }
+  }
