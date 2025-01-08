@@ -1,25 +1,19 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Corn Future Prices - Past 3 Months",
-    "anchor": "start",
-    "subtitle": "Data scraped from Yahoo Finance",
-    "fontSize": "24",
-    "subtitleFontSize": "16",
-    "color": "#1f832c",
-    "subtitleColor": "#000000"
-  },
-  "height": "400",
-  "width": "800",
-  "autosize": {
-    "type": "fit",
-    "contains": "padding"
-  },
-  "background": "#e2e4e2",
-  "view": {
-    "fill": "#e2e4e2",
-    "strokeOpacity": 0
-  },
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 400,
+    "title": {
+      "text": "Corn Future Prices - Past 3 Months",
+      "subtitle": ["Data scraped from Yahoo Finance", ""],
+      "fontSize": 20,
+      "color": "#900C3F",
+      "subtitleFontSize": 16,
+      "subtitleFontWeight": "lighter",
+      "subtitleColor": "#C70039",
+      "anchor": "middle"
+    },
+
+
   "data": {
     "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/tasks/corn_prices.csv"
   },
