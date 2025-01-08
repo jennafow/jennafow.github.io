@@ -1,34 +1,63 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-        "text": "Child Poverty Rates",
-        "anchor": "start",
-        "subtitle": "Poverty Rates Aggregated from Local Authority level to Region level",
-        "fontSize": "24",
-        "subtitleFontSize": "16",
-        "color": "#1f832c",
-        "subtitleColor": "#000000"},
-
-        "height": "400",
-        "width": "800",
-        "autosize": {
-          "type": "fit",
-          "contains": "padding"
-        },
-        "background": "#e2e4e2",
-        "view": {
-          "fill": "#e2e4e2",
-          "strokeOpacity": 0
-        },
-
-    "data": {"url": "Absolute poverty rates - data.csv"},
-    "mark": {
-      "type": "line",
-      "point": true
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {"Purpose": "Hardware Usage", "Usage": "Don't use", "Value": 0.13},
+      {"Purpose": "Hardware Usage", "Usage": "Use", "Value": 0.15},
+      {"Purpose": "Hardware Usage", "Usage": "Frequently Use", "Value": 0.72},
+      {"Purpose": "To support teaching and learning", "Usage": "Don't use", "Value": 0.1},
+      {"Purpose": "To support teaching and learning", "Usage": "Use", "Value": 0.41},
+      {"Purpose": "To support teaching and learning", "Usage": "Frequently Use", "Value": 0.48}
+    ]
+  },
+  "width": 300,
+  "height": 150,
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Purpose",
+      "type": "nominal",
+      "title": "",
+      "axis": {"labelAngle": 0}
     },
-    "encoding": {
-      "x": {"field": "Year"},
-      "y": {"field": "All", "type": "quantitative", "grid": false}
+    "x": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Proportion",
+      "axis": {
+        "format": ".0%",
+        "tickCount": 5
+      }
+    },
+    "color": {
+      "field": "Usage",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Don't use", "Use", "Frequently Use"],
+        "range": ["#BC0050", "#FFBD00", "#11A08A"]
+      },
+      "title": "Usage Level"
+    },
+    "tooltip": [
+      {"field": "Usage", "type": "nominal", "title": "Usage Level"},
+      {"field": "Value", "type": "quantitative", "title": "Proportion", "format": ".0%"}
+    ]
+  },
+  "title": {
+    "text": "Edtech usage by teachers",
+    "fontSize": 20
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    },
+    "legend": {
+      "orient": "bottom"
     }
   }
+}
   
