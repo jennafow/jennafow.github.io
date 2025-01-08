@@ -181,7 +181,22 @@
         <nav class="task-nav">
             <h2>Task 8: Big Data</h2>
             <p>Produce two charts using the UK price data provided in class.</p>
+            <p>
+                These charts use the long run price data from super markets to compare the price of a healthy food and unhealthy food over time. The top chart shows the changes in broccoli and a packet of biscuits over time in London.
+                The data is filtered by item then the price is aggregated as the median price for that item. The data is further filtered just for London for chart 1. 
+             </p>  
+            <p>
+                This data is from the AutoCPI data and the code can be found on <a href="https://colab.research.google.com/drive/1HpaCwZ_wjxecOtUd9-VH1bcnADmlQfjW?usp=sharing">Google Colab.</a>
+            </p>     
+            <h3>Big Data Chart 1</h3><figure id="Location27"></figure>
+            <h3>Big Data Chart 2</h3><figure id="Location28"></figure>
         </nav>
+        <script>
+            let figure_27_spec = "task8_chart1.json";
+            let figure_28_spec = "task8_chart2.json";
+            vegaEmbed('#Location27', figure_27_spec);
+            vegaEmbed('#Location28', figure_28_spec);
+        </script>
     </section>
 
     <!-- Task 9 -->

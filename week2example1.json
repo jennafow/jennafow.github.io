@@ -21,7 +21,7 @@
   },
   "mark": {
     "type": "line",
-    "color": "#1f832c",
+    "color": "#C70039",
     "strokeWidth": "2"
   },
   "encoding": {
@@ -29,8 +29,7 @@
       "field": "date",
       "type": "temporal",
       "axis": {
-        "title": "",
-        "titleColor": "#122B39",
+        "title": "Year",
         "grid": false
       }
     },
@@ -38,8 +37,7 @@
       "field": "value",
       "type": "quantitative",
       "axis": {
-        "title": "",
-        "titleColor": "#122B39",
+        "title": "Price (USD)",
         "grid": false
       }
     }

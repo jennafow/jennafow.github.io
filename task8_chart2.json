@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 400,
+    "title": {
+      "text": "Price - Broccoli and Biscuits",
+      "subtitle": ["The price of broccoli and biscuits over time by area", ""],
+      "fontSize": 20,
+      "color": "#900C3F",
+      "subtitleFontSize": 16,
+      "subtitleFontWeight": "lighter",
+      "subtitleColor": "#C70039",
+      "anchor": "middle"
+    },
+  "data": {
+    "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/prices_by_region.csv"
+  },
+  "params": [
+    {
+      "name": "year",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2007,
+        "max": 2024,
+        "step": 1,
+        "name": "Year:"
+      }
+    },
+    {
+      "name": "item_name",
+      "value": "biscuit",
+      "bind": {
+        "input": "select",
+        "options": ["biscuit", "broccoli"],
+        "name": "Item:"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/nuts1.json",
+          "format": {"type": "json", "property": "features"}
+        },
+        "key": "properties.id",
+        "fields": ["type", "properties", "geometry"]
+      }
+    },
+    {"filter": "datum.year == year"},
+    {"filter": "datum.item_name == item_name"}
+  ],
+  "encoding": {
+    "color": {
+      "field": "price",
+      "type": "quantitative",
+      "scale": {"type": "linear", "range": ["#DAF7A6", "#FFC300", "#C70039", "#900C3F"]},
+      "legend": {
+        "title": null,
+        "labelFontWeight": "lighter",
+        "labelExpr": "'£'+datum.label",
+        "orient": "right",
+        "legendX": 0,
+        "legendY": -10,
+        "gradientLength": 200
+      }
+    }
+  },
+  "projection": {"type": "naturalEarth1"},
+  "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.3}
+}
