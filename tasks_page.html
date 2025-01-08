@@ -86,8 +86,6 @@
         <nav class="task-nav">
             <h2>Task 4: Replication</h2>
             <p>Find a chart used by a journalist, think tank, or company and replicate it, then improve on it.</p>
-            <p>Original chart location: <a href="https://ifs.org.uk/living-standards-poverty-and-inequality-uk">IFS</a></p>
-            <h3>Replicated Chart</h3><figure id="Location8"></figure>
         </nav>
         <script>
             let figure_8_spec = "task4graph1.json";
@@ -155,11 +153,21 @@
         <nav class="task-nav">
             <h2>Task 7: Maps</h2>
             <p>Produce two maps and embed them in your portfolio page.</p>
-            <h3>Map</h3><figure id="Location21"></figure>
+            <p>
+                This map shows the poverty rates of the adult population in each state as of 2021. Data from <a href="https://data.ers.usda.gov/reports.aspx?ID=17826">USDA</a>
+            </p>
+            <h3>Blank Map</h3><figure id="Location26"></figure>
+            <p></p>
+            <h3>Chloropleth Map</h3><figure id="Location21"></figure>
+
         </nav>
         <script>
             let figure_21_spec = "task7_map2.json";
+            let figure_26_spec = "task7_map1.json";
+
             vegaEmbed('#Location21', figure_21_spec);
+            vegaEmbed('#Location26', figure_26_spec);
+
         </script>
     </section>
 

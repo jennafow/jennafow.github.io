@@ -1,0 +1,48 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": {
+        "text": "USA MAP",
+        "fontSize": 20,
+        "color": "#900C3F",
+        "subtitleFontSize": 16,
+        "subtitleFontWeight": "lighter",
+        "subtitleColor": "#C70039",
+        "anchor": "middle"
+      },
+    "data": {
+      "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/us_states.json",
+      "format": {
+        "type": "topojson",
+        "feature": "states"
+      }
+    },
+    "width": 600,
+    "height": 330,
+    "transform": [
+      {
+        "lookup": "id", 
+        "from": {
+          "key": "id",
+          "fields": ["poverty", "state"],
+          "data": {
+            "url": "https://raw.githubusercontent.com/jennafow/jennafow.github.io/refs/heads/main/usa_pov.csv"
+          }
+        }
+      }
+    ],
+    "projection": {
+      "type": "albersUsa"
+    },
+    "mark": {
+      "type": "geoshape",
+      "stroke": "white",
+      "strokeWidth": 0.3,
+      "fill": "lightgrey" 
+    },
+    "encoding": {
+      "tooltip": [
+        {"field": "state", "title": "State"}
+      ]
+    }
+  }
