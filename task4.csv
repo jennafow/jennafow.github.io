@@ -1,4 +1,3 @@
-Usage,Hardware Usage,To support teaching and learning
-Don't use,0.13,0.1
-Use,0.15,0.41
-Frequently Use,0.72,0.48
+Usage,Don't use,Use,Frequently Use
+Hardware Usage,0.13,0.15,0.72
+To support teaching and learning,0.1,0.41,0.48
