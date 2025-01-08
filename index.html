@@ -1,60 +1,60 @@
-
 <!DOCTYPE html>
 <html> 
 
 <head>    
-    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+    <!-- The head tag links to resources our page needs and defines information about it. -->
+    <link rel="stylesheet" type="text/css" href="project_style.css">
+    <title>My Portfolio</title>
 
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
-
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <!-- Link to Vega libraries for graphs -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-    <style>
-        #chartGrid {
-            display: flex;
-        }
-        
-    </style>
 </head>
 
 <body> 
-<!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
-        <!-- This is a header, it is the largest text on the page -->
-        Automated Data Visualisation for Policymaking
-    </h1>
-    <h2>
-        Jenna Fowler
-    </h2>
-<!-- Add the project page link and description -->
-    <h3 class="small">
-        <a href="project_page.html">PP434 Project</a>    
-    </h3>
-    <p> 
-        This page explores the relationship between crop prices and food insecurity indicators. Data is pulled from the Trading Economics website to constantly update time series predictions of the price of corn. There are additional charts and graphs which explore the relationship between food security indicators and crop prices. 
+    <!-- The body tag contains the elements that visitors to our page will see. -->
     
-    </p>
+    <div class="content"> <!-- Main content container -->
+        <h1 class="big" style="margin-bottom: 0px;">
+            Automated Data Visualisation for Policymaking
+        </h1>
+        
+        <h2><a href="https://www.linkedin.com/in/jennafowler">Jenna Fowler</a></h2>
 
-<!-- Add the tasks page link and description -->
-    <h3 class="small">
-        <a href="tasks_page.html">PP434 Tasks</a>   
-    </h3>
-    <p> 
-    This page hosts the weekly tasks assigned for the course PP434. 
-    </p>
-<!-- Add the github link and description -->
-    <h3 class="small">
-        <a href="https://github.com/jennafow/jennafow.github.io">GitHub</a> 
-    </h3>
-    <p> 
-    Use this link to explore the contents of this website in github
-    </p>
-    </body>
-    
+        <!-- Project link and description -->
+        <section class="chart-section">
+            <div class="chart-description">
+                <h2><a href="project_page.html">PP434 Project</a></h2>
+                <p>
+                    This project explores the relationship between food prices and food security indicators through data visualizations
+                 </p>
+            </div>
+        </section>
+
+        <!-- Tasks page link and description -->
+        <section class="chart-section">
+            <div class="chart-description">
+                <h2><a href="tasks_page.html">PP434 Tasks</a></h2>
+                <p>
+                    This page hosts the weekly tasks assigned for the course PP434.
+                </p>
+            </div>
+        </section>
+
+        <!-- GitHub link and description -->
+        <section class="chart-section">
+            <div class="chart-description">
+                <h2><a href="https://github.com/jennafow/jennafow.github.io">GitHub</a></h2>
+                <p>
+                    Use this link to explore the contents of this website on GitHub.
+                </p>
+            </div>
+        </section>
+    </div>
+
+</body>
 </html>
+
+
+
