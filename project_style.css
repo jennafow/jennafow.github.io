@@ -194,5 +194,25 @@ figure img {
   display: block;
 }
 
+.task-nav ul {
+  list-style-type: none; /* Removes the bullets */
+  padding-left: 0;       /* Removes the left padding */
+}
+
+.task-nav li {
+  margin-bottom: 20px;   /* Optional: Adds some space between each list item */
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */
+  gap: 20px; /* Adds space between the grid items */
+  margin-top: 20px;
+}
+
+.task-grid figure {
+  margin: 0; /* Removes any default margin around the figures */
+}
+
 
 
